@@ -223,9 +223,8 @@ def query_api():
     
     end_time = time.time()
     time_elapsed = (end_time - start_time)
-    return payload
-
     print('Total Runtime API-Call: {} seconds'.format(round(time_elapsed)))
+    return payload
 
 
 if __name__ == '__main__':
